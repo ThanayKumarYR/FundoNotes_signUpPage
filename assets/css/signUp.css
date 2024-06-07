@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+.container {
+  background-color: #fff;
+  padding: 10px 10px 10px 40px;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  width: 70%;
+  max-width: 800px;
+}
+.form-container {
+  width: 60%;
+}
+.form-container h2 {
+  color: #ffc107;
+}
+.form-container h3 {
+  margin: 0;
+}
+.form-container form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form-container form p {
+  font-size: smaller;
+  font-weight: bold;
+  width: 100%;
+}
+.form-container input {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 40%;
+}
+.form-container input:nth-child(3) {
+  width: 100%;
+}
+.form-container button:hover {
+  background-color: #3142a5;
+}
+.image-container {
+  margin-left: 10px;
+  text-align: center;
+  width: min-content;
+}
+.image-container img {
+  margin-top: 20px;
+  width: 350px;
+  height: auto;
+}
+.image-container h3 {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0 30px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+  width: 100%;
+}
+.links a {
+  font-size: 14px;
+  color: #0068d6;
+  text-decoration: none;
+  font-weight: bold;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+.links button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3f51b6;
+    color: white;
+    cursor: pointer;
+  }
+.language-selector {
+  width: 63%;
+  margin-top: 5px;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+.language-selector select {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+.language-selector .footer-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.language-selector .footer-links a {
+  margin: 0 10px;
+  font-size: 14px;
+  color:black;
+  text-decoration: none;
+}
+.language-selector .footer-links a:hover {
+  text-decoration: underline;
+}
